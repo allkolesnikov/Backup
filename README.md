@@ -39,10 +39,10 @@
 pg_dump -U postgres -F c mydatabase > backup.dump
 ```
 Где:
--U postgres — пользователь БД;
--F c — формат custom;
-mydatabase — имя базы;
-backup.dump — файл резервной копии.
+- -U postgres — пользователь БД;
+- -F c — формат custom;
+- mydatabase — имя базы;
+- backup.dump — файл резервной копии.
 
 Пример восстановления базы PostgreSQL (pg_restore)
 ```
